@@ -96,9 +96,9 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
+/* #gallery {
+	min-height: 100vh; <- c'était en commentaire (la Regle est donc vide), c'est quoi ca ?
+} */
 
 .title {
 	text-align: center;
