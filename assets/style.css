@@ -84,16 +84,26 @@ body {
 	font-size: 30px;
 }
 
-.about-me__introduction {
+p.about-me__introduction {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
 }
 
-#about-me p {
+.about-me__p {
 	width: 80%;
 	font-size: 14px;
+	margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.aboutnina {
+	width: 100%;
+	height: 100%;
 }
 
 /* #gallery {
@@ -103,6 +113,7 @@ body {
 .title {
 	text-align: center;
 	padding-block: 2em;
+	font-size: 1.75rem;
 }
 
 .gallery .nav {
@@ -166,7 +177,8 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: 2.5em;
+	line-height: 1.2;
 }
 
 .quote__author {
@@ -236,7 +248,10 @@ body {
 
 .form-container {
 	flex: 2;
+}
 
+.form-container h2 {
+	font-size: 1.75rem;
 }
 
 form {
