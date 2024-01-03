@@ -114,7 +114,7 @@
 				</button>
 			</div>
 		</div>
-		<section id="about">
+		<section id="about" itemscope itemtype="http://schema.org/Person">
 			<div class="picture left">
 				<img src="./assets/images/nina.webp" class="aboutnina" alt="portrai de Nina Carducci">
 			</div>
@@ -123,7 +123,7 @@
 				<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais
 					prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre
 					immortels, voilà ce qui me fait vibrer.</p>
-				<p class="about-me__p">Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous
+				<p class="about-me__p" itemprop="description">Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous
 					n’avons qu’une envie :
 					le
 					figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos
@@ -139,46 +139,46 @@
 		<section id="gallery">
 			<h2 class="title">Portfolio</h2>
 			<div class="container py-3">
-				<div class="gallery" style="display: none">
-					<img data-gallery-tag="Concert" class="gallery-item"
+				<div class="gallery" style="display: none" itemscope itemtype="http://schema.org/ImageGallery">
+					<img data-gallery-tag="Concert" class="gallery-item" itemprop="image"
 						src="./assets/images/gallery-webp/concerts/aaron-paul.webp" alt="Photo d'un concert"
 						loading="lazy">
-					<img data-gallery-tag="Entreprises" class="gallery-item"
+					<img data-gallery-tag="Entreprises" class="gallery-item" itemprop="image"
 						src="./assets/images/gallery-webp/entreprise/ali-morshedlou.webp"
 						alt="Portrait d'un homme en costume" loading="lazy">
-					<img data-gallery-tag="Entreprises" class="gallery-item"
+					<img data-gallery-tag="Entreprises" class="gallery-item" itemprop="image"
 						src="./assets/images/gallery-webp/entreprise/jason-goodman.webp" alt="Portrait d'une femme"
 						loading="lazy">
-					<img data-gallery-tag="Mariages" class="gallery-item"
+					<img data-gallery-tag="Mariages" class="gallery-item" itemprop="image"
 						src="./assets/images/gallery-webp/mariage/hannah-busing.webp" alt="Mains qui se rejoignent"
 						loading="lazy">
-					<img data-gallery-tag="Portrait" class="gallery-item"
+					<img data-gallery-tag="Portrait" class="gallery-item" itemprop="image"
 						src="./assets/images/gallery-webp/portraits/ade-tunji.webp" alt="Visage d'un homme yeux fermés "
 						loading="lazy">
-					<img data-gallery-tag="Mariages" class="gallery-item"
+					<img data-gallery-tag="Mariages" class="gallery-item" itemprop="image"
 						src="./assets/images/gallery-webp/mariage/jakob-owens.webp" alt="Couple marié" loading="lazy">
-					<img data-gallery-tag="Portrait" class="gallery-item"
+					<img data-gallery-tag="Portrait" class="gallery-item" itemprop="image"
 						src="./assets/images/gallery-webp/portraits/nino-van-prattenburg.webp"
 						alt="Portrait d'une femme" loading="lazy">
-					<img data-gallery-tag="Concert" class="gallery-item"
+					<img data-gallery-tag="Concert" class="gallery-item" itemprop="image"
 						src="./assets/images/gallery-webp/concerts/austin-neill.webp" alt="Chanteur en concert"
 						loading="lazy">
-					<img data-gallery-tag="Entreprises" class="gallery-item"
+					<img data-gallery-tag="Entreprises" class="gallery-item" itemprop="image"
 						src="./assets/images/gallery-webp/entreprise/mateus-campos-felipe.webp"
 						alt="Femme souriant sur un ordinateur" loading="lazy">
 				</div>
 
 			</div>
-			<div class="quote">
+			<div class="quote" itemscope itemtype="http://schema.org/Quotation">
 				<figure>
 					<blockquote>
-						<p class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un
+						<p class="quote__text" itemprop="text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un
 							fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude
 							n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la
 							vérité.
 						</p>
 					</blockquote>
-					<figcaption class="quote__author">- Richard Avedon</figcaption>
+					<figcaption class="quote__author" itemprop="author">- Richard Avedon</figcaption>
 				</figure>
 			</div>
 		</section>
@@ -223,13 +223,13 @@
 				</div>
 			</div>
 		</section>
-		<section class="quote">
+		<section class="quote" itemscope itemtype="http://schema.org/Quotation">
 			<figure>
 				<blockquote>
-					<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des
+					<p class="quote__text" itemprop="text">De manière inconsciente, je crois, je guette un regard, une expression, des
 						traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
 				</blockquote>
-				<figcaption class="quote__author">- Richard Avedon</figcaption>
+				<figcaption class="quote__author" itemprop="author">- Richard Avedon</figcaption>
 			</figure>
 		</section>
 		<section id="contact">
